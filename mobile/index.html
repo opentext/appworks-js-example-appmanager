@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>App Manager Demo</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="appworks.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+  </head>
+  <body>
+
+    <div id="intro-wrapper">
+      <div id="intro">
+        <div style="font-weight:bold; text-align:center; margin-bottom:8px;">App Manager Demo</div>
+        <p>The buttons below allows you to close this app from JavaScript</P>
+      </div>
+    </div>
+
+    <div id="content-wrapper">
+      <div><button type="button" id="go0-button" class="go-button vertical-space" onclick="closeApp();">Close App</button></div>
+    </div>
+
+    <div id="result-wrapper">
+      <div id="result">
+        Result will appear here.
+    </div>
+
+    <div id="version">Version 0.0.1</div>
+  </body>
+</html>
