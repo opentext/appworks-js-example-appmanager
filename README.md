@@ -38,7 +38,7 @@ appManager.closeActiveApp();
 
 ## Installation
 
-This example app contains 3 import objects:
+This example app contains 3 important objects:
 1. app.properties
 2. icon.png
 3. mobile.zip
